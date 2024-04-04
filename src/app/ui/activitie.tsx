@@ -23,7 +23,7 @@ export default function ActivitieComponent({act}: {act: Activitie}) {
                 <div className="col-span-1 place-items-center">
                     <button className={styles.button_del} onClick={()=>store.removeActivitie(act.id)}>
                         <Image
-                            src={act.complete ? '/delete_w.svg' : '/delete_icon.svg'}
+                            src={act.complete ? './delete_w.svg' : './delete_icon.svg'}
                             alt='icon_delete'
                             width={20}
                             height={20}
