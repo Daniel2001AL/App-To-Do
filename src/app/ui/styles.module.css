@@ -1,0 +1,85 @@
+.title{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+.credits{
+
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px;
+}
+
+
+.inputAdd{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+}
+.inputAdd::placeholder{
+    color: rgba(255, 255, 255, 0.61);
+}
+.button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: #3F42C9;
+}
+.card_activitie{
+    border: 1px solid rgba(255, 255, 255, 0.315);
+    border-radius: 10px;
+    background-color: white;
+    color: #3F42C9;
+    padding: 15px 10px;
+    width: 30%;
+    min-width: 200px;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.card_activitie_complete{
+    border: 1px solid rgba(255, 255, 255, 0.315);
+    border-radius: 10px;
+    background-color: rgb(10, 168, 10);
+    color: white;
+    padding: 15px 10px;
+    width: 30%;
+    min-width: 200px;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+    accent-color: green !important;
+    color: white !important;
+    border-radius: 50% !important;
+    outline: none;
+    border: 2px solid #ccc;
+}
+.complete_item{
+    display: none;
+}
+.button_del{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue !important;
+}
